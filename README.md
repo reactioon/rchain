@@ -170,6 +170,6 @@ The whole concept of Reactioon Blockchain is still in development and can be enh
 
 <br>
 
-That's all! Folks!
+That's all! Folks!  
 @author José Wilker (CEO/Developer)
 
