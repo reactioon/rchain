@@ -69,7 +69,7 @@ Reactioon Blockchain (aka, rchain)
 ----
 ```
 
-**@notes:**
+**@notes:**  
 1. The `--host` flag represents the host of the chain.
 2. The `--port` flag represents the port of chain.
 3. The `--pass` flag represents the password to unlock the mnemonic of Genesis.
@@ -85,7 +85,7 @@ Note: The miner address will receive fees for transactions.
 
 ## Wallets
 
-**1. Create a wallet**
+**1. Create a wallet**  
 If you are running the node for the first time, you can create a new wallet to send or receive artifacts.
 
 command:
