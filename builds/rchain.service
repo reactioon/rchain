@@ -1,0 +1,12 @@
+[Unit]
+Description=Reactioon Blockchain (rchain)
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/reactioon/rchain/rchain -x node-start --host={ip}:{port} --miner={miner-address}
+WorkingDirectory=/reactioon
+User=root
+Restart=on-failure
+RestartSec=60
