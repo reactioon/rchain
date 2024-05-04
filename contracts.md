@@ -12,6 +12,13 @@ _contract={}
 _contract.Compiler="rvmjs@0.0.1"
 ```
 
+# Deploy
+To publish smart contracts on the reactioon network you need to have a copy of the blockchain running on your machine. See below the command to publish a smart contract.
+
+```
+./rchain -x contract-deploy --port=3000 --iface=eth0 --to={wallet} --contract={contract-genesis} --seed={wallet-seed} --source={path-contract-file}
+```
+
 ## Examples
 
 1. Basic
@@ -20,7 +27,7 @@ Script with custom information about the contract.
 ```js
 // genesis contract
 _contract = {}
-_contract.Name = "Genesis contract"
+_contract.Name = "Genesis"
 _contract.Description = "First contract created on chain."
 _contract.Compiler = "rvmjs@0.0.1"
 ```
