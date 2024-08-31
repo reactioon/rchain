@@ -14,8 +14,8 @@ The reactioon blockchain (aka, rchain) has been projected to be used as software
 ## Requirements
 
 * Linux Debian 11/MacOS Sonoma
-* 1GB HD
-* 256 MB of RAM
+* 100GB HD
+* 4GB RAM
 
 ## Package
 
